@@ -1,0 +1,30 @@
+@import 'common.scss';
+
+* {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 95vw;
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+.main {
+    overflow-x: hidden;
+    background-color: $green;
+    &.active { 
+        background-color: $white;
+    }
+}
+section {
+    padding-top: 1rem;
+    overflow: hidden !important;
+}
+@media (max-width: 500px) {
+    .container {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,15 @@
+.main-txt {
+    margin-bottom: 1rem;
+    line-height: 130%;
+    font-size: 18px;
+}
+.white {
+    color: $white;
+}
+@media (max-width: 900px) {
+    .main-txt {
+        margin-bottom: 1rem;
+        line-height: 130%;
+        font-size: 15px;
+    }
+}

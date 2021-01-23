@@ -1,0 +1,66 @@
+.title {
+    width: 80%;
+    padding: 0.5rem .3rem;
+    border-left: solid 3px $yellow;
+    border-top: solid 3px $yellow;
+    position: relative;
+    &::before {
+        content: '';
+        width: 5%;
+        height: 3px;
+        position: absolute;
+        background-color: $white;
+        top: -3px;
+        left: 20%;
+    }
+    h2 {
+        font-size: 48px;
+    }
+}
+
+.yellowTxt {
+    color: $yellow;
+}
+@media (max-width: 900px) {
+    .title {
+        width: 80%;
+        padding: 0.5rem .3rem;
+        border-left: solid 3px $yellow;
+        border-top: solid 3px $yellow;
+        position: relative;
+        &::before {
+            content: '';
+            width: 5%;
+            height: 3px;
+            position: absolute;
+            background-color: $white;
+            top: -3px;
+            left: 20%;
+        }
+        h2 {
+            font-size: 38px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        width: 95%;
+        padding: 0.5rem .3rem;
+        border-left: solid 3px $yellow;
+        border-top: solid 3px $yellow;
+        position: relative;
+        &::before {
+            content: '';
+            width: 8%;
+            height: 3px;
+            position: absolute;
+            background-color: $white;
+            top: -3px;
+            left: 20%;
+        }
+        h2 {
+            font-size: 34px;
+        }
+    }
+}

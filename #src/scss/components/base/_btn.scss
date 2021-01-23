@@ -1,0 +1,42 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out;
+}
+.transparent__btn {
+    border: 2px solid $white;
+    width: 300px;
+    height: 62px;
+    color: $white;
+    font-size: 24px;
+    text-decoration: none;
+    &:hover {
+        transition-delay:0s ;
+        border: 2px solid $yellow;
+        background-color: $yellow;
+    }
+}
+.yellow__btn {
+    border: 2px solid $yellow;
+    width: 90%;
+    height: 50px;
+    color: $white;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: $yellow;
+    &:hover {
+        transition-delay:0s ;
+        border: 2px solid $yellow;
+        background-color: $white;
+        color: $yellow;
+    }
+}
+@media (max-width: 1150px) {
+    .transparent__btn {
+
+        width: 250px;
+        font-size: 20px;
+        height: 52px;
+    }
+}

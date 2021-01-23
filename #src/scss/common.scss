@@ -1,0 +1,20 @@
+// @import 'libs/jquery.fancybox.min.css'; 
+@import 'mixins';
+@import 'fonts.scss';
+@import 'libs/scrollAnim.scss';
+
+
+@import 'components/base/variables';
+@import 'components/base/btn';
+@import 'components/base/header';
+@import 'components/base/footer';
+@import 'components/base/img';
+@import 'components/base/title';
+@import 'components/base/txt';
+
+
+@import 'blocks/intro';
+@import 'blocks/about';
+@import 'blocks/product_slider';
+@import 'blocks/catalog';
+@import 'blocks/feedback';
