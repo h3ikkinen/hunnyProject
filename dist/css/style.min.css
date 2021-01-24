@@ -3631,6 +3631,7 @@ section {
   }
 
   .feedback .feedback__container .feedback__wrapper .feedback__main .right .whatsApp {
+    width: 45%;
     padding: .5rem 0rem;
     color: #013541;
     text-decoration: none;
@@ -3640,7 +3641,6 @@ section {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
