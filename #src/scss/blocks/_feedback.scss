@@ -166,7 +166,40 @@
                             background-color: transparent;
                         }
                     }
+                    .whatsApp {
+                        padding: .8rem 0rem;
+                        color: $green;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        svg {
+                            height: 40px;
+                            margin-right: 1rem;
+                            transition: .2s ease-in-out;
+                            .wsgr {
+                                transition: .2s ease-in-out;
+                            }
+                        }
+                        span {
+                            font-size: 23px;
+                            font-style: italic;
+                            font-weight: 600;
+                            transition: .2s ease-in-out;
+                        }
+                        &:hover {
+                            svg {
+                                opacity: .8;
+                                // .wsgr {
+                                //     fill: $yellow !important;
+                                // }
+                            }
+                            span {
+                                color: $yellow;
+                            }
+                        }
+                    }
                 }
+         
             }
         }
     }
@@ -292,6 +325,22 @@
                             &:hover {
                                 border: solid 2px $yellow;
                                 background-color: transparent;
+                            }
+                        }
+                        .whatsApp {
+                            padding: .5rem 0rem;
+                            color: $green;
+                            text-decoration: none;
+                            display: flex;
+                            align-items: center;
+                            svg {
+                                height: 40px;
+                                margin-right: 1rem;
+                            }
+                            span {
+                                font-size: 20px;
+                                font-style: italic;
+                                font-weight: 600;
                             }
                         }
                     }
@@ -545,7 +594,7 @@
                             }
                         }
                         .btn {
-                            max-width: 361px;
+                            max-width: 100%;
                             width: 100%;
                             margin-top: 1rem;
                             padding: 1rem;
@@ -585,6 +634,24 @@
                             &:hover {
                                 border: solid 2px $yellow;
                                 background-color: transparent;
+                            }
+                        }
+                        .whatsApp {
+                            padding: .5rem 0rem;
+                            color: $green;
+                            text-decoration: none;
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            justify-content: center;
+                            svg {
+                                height: 30px;
+                                margin-right: .5rem;
+                            }
+                            span {
+                                font-size: 17px;
+                                font-style: italic;
+                                font-weight: 600;
                             }
                         }
                     }

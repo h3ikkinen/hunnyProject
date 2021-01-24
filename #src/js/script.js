@@ -77,6 +77,7 @@ $(document).ready(function() {
     $('.js-burger-trigger-nav').on('click', () => {
         $('.js-burger-menu').removeClass('js-active');
         $('.js-burger-trigger').removeClass('js-active');
+        $('.header').toggleClass('burger-active');
     });
     $('.js-burger-trigger').on('click', function() {
         $(this).toggleClass('js-active');
