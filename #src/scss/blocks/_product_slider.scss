@@ -569,6 +569,8 @@
                         background: #AADFF0;
                         &:before {
                             background: #AADFF0;
+                            height: 5px;
+                            top: -4px;
                         }
                         h2 {
                             color: $white;
@@ -656,8 +658,10 @@
                         font-size: 24px;
                     }
                     &:before {
-                        background: #9BDAE9;
+                        background: #AADFF0;
                         width: 10%;
+                        height: 5px;
+                        top: -4px;
                     }
                 }
                 .descr {

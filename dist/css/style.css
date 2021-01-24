@@ -3334,6 +3334,8 @@ section {
 
   .products .mainProductsSlider .mainProductsSlider__slide-container .product_descr .title:before {
     background: #AADFF0;
+    height: 5px;
+    top: -4px;
   }
 
   .products .mainProductsSlider .mainProductsSlider__slide-container .product_descr .title h2 {
@@ -3889,8 +3891,10 @@ section {
   }
 
   .productsList .productsList__wrapper .productsList__item .title:before {
-    background: #9BDAE9;
+    background: #AADFF0;
     width: 10%;
+    height: 5px;
+    top: -4px;
   }
 
   .productsList .productsList__wrapper .productsList__item .descr {
